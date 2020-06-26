@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="Script.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+</head>
+<body>
+    
+    
+    <div class="container d-flex justify-content-center">
+        <div id="container" >
+        
+        <h5>Calculator</h5>
+        <div class="row" >
+        <div class="col-sm-12 inp">
+            <input type="text" id="input">
+        </div>
+
+        <div class="col-sm-12">
+            <button class="btn btn-primary clr" onclick="Clear_data()">Clear</button>
+        </div>
+        
+        <div class="col-sm-12">
+            <button class="btn btn-primary btn_num" onclick="Get_num('1')">1</button>
+            <button class="btn btn-primary btn_num" onclick="Get_num('2')">2</button>
+            <button class="btn btn-primary btn_num" onclick="Get_num('3')">3</button>
+            <button class="btn btn-primary btn_num2" onclick="Get_num('+')">+</button>
+        </div>
+        <div class="col-sm-12">
+            <button class="btn btn-primary btn_num" onclick="Get_num('4')">4</button>
+            <button class="btn btn-primary btn_num" onclick="Get_num('5')">5</button>
+            <button class="btn btn-primary btn_num" onclick="Get_num('6')">6</button>
+            <button class="btn btn-primary btn_num2" onclick="Get_num('-')">-</button>
+        </div>
+        <div class="col-sm-12">
+            <button class="btn btn-primary btn_num" onclick="Get_num('7')">7</button>
+            <button class="btn btn-primary btn_num" onclick="Get_num('8')">8</button>
+            <button class="btn btn-primary btn_num" onclick="Get_num('9')">9</button>
+            <button class="btn btn-primary btn_num2" onclick="Get_num('*')">*</button>
+        </div>
+        <div class="col-sm-12">
+                <button class="btn btn-primary btn_num2" onclick="Get_num('0')">0</button>
+                <button class="btn btn-primary btn_num2" onclick="Get_result()">=</button>
+                <button class="btn btn-primary btn_num2 " onclick="Get_num('/')">/</button>
+            </div>
+        </div>
+                    
+        </div>
+    </div>
+</body>
+</html>
